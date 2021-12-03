@@ -1,0 +1,15 @@
+ROADMAP DEMO ASSERTIVA
+
+1. Creamos un repositorio con Git.
+2. Creamos un tenant nuevo en auth0.
+3. Node.js & Express / Express middleware to handle checking a auth and redirecting to lobby.
+4. Copy the .env-sample file to a new .env file that the app will use.
+5. Instalamos las dependencias con npm.
+
+Add auth
+
+1. npm install express-openid-connect@1.0.2 --save
+	middleware that provides OpenID Connect and JWT implementation.
+2. Update your application code to require express-openid-client in the server.js file:
+3. Add the authentication middleware that will be used for all application routes
+4. 
